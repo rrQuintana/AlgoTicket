@@ -13,5 +13,5 @@ Rutas: Se especifian las rutas que se utilizarán para realizar las peticiones d
        
 ## Scripts
 
-utiliza el sigueinte comando para correr el programa:
+Utiliza el sigueinte comando para correr el programa:
 ### npm run dev
