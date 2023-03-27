@@ -1,4 +1,17 @@
-# AlgoTicket
-AlgoTicket is a web-based ticketing platform designed to make buying and selling event tickets simple, fast, and secure. This project is a ticketing system built on a modern tech stack, including React for the frontend, Node for the backend, Postgres for the database, and Docker for containerization.
+# Backend postgres
+Este es un ejemplo de una api que utiliza rutas para hacer peticiones crud, 
+El proyecto de divide en modelos, controladores y rutas.
 
-AlgoTicket features an intuitive user interface that allows users to search for events, view available tickets, and purchase tickets securely using a range of payment options. The platform is highly customizable and can be adapted to meet the needs of different events and organizations.
+Modelos: Se especifica la estructura de los obtetos que se almacenarán en la base de datos
+         En este caso al usar postrgres no es necesario ya que se crean tablas en la bd.
+         
+Controladores: Se especifica que se puede hacer con las tablas de la bd como crear, eliminar,
+               editar, buscar, consultar algo en específico, etc.
+               
+Rutas: Se especifian las rutas que se utilizarán para realizar las peticiones de los controladores
+       y acceder o modifacer a la información de la base de datos.
+       
+## Scripts
+
+utiliza el sigueinte comando para correr el programa:
+### npm run dev
